@@ -37,6 +37,11 @@ do
             break;
 
         case 2:
+            List<string> listaEstadisticas = Ticketera.EstadisticasTicketera();
+            foreach (string texto in listaEstadisticas)
+            {
+                Console.WriteLine(texto);
+            }
             break;
 
         case 3:
@@ -53,8 +58,14 @@ do
             break;
 
         case 4:
+            int idIngresado2 = INgresarINT("Ingrese el id de una entrada:");
+            tipoEntrada = IngresarTipoEntrada("Por que entrada la quiere cambiar?");
+            cantidad = INgresarINT("Cuantas quiere?");
+            bool sePuedo = Ticketera.CambiarEntrada(idIngresado2, tipoEntrada, cantidad);
+
+
             break;
-            
+
         default:
             break;
     }

@@ -12,7 +12,29 @@ public static int AgregarCliente(Cliente clienteIngresado){
     
 }
 
-int CambiarEntrada;
+public static bool CambiarEntrada(int id, int tipo, int cant){
+
+    bool sePudo = false;
+    int[] precios = new int[]{45000, 60000, 30000, 100000};
+    if (DicClientes.ContainsKey(id))
+    {
+        if (precios[tipo - 1] > precios[DicClientes[id].TipoEntrada - 1])
+        {
+            DicClientes[id].FechaInscripcion = DateTime.Now;
+            DicClientes[id].TipoEntrada = tipo;
+            DicClientes[id].Cantidad = cant;
+            Console.WriteLine("Se realizó el cambio");
+            sePudo = true;
+        } else
+        {
+            Console.WriteLine("NO se realizó el cambio");
+            sePudo = false;
+        }
+    }
+    return sePudo;
+
+
+}
 
 public static Cliente BuscarCliente (int ID){
     Cliente clienteEncontrado;
@@ -61,7 +83,7 @@ public static List<string> EstadisticasTicketera (){
 
     listaEstadisticas.Add($"% RECAUDACION: DIA 1: {porcRec1}% - DIA 2: {porcRec2}% - DIA 3: {porcRec3}% - FULL: {porcRec4}%");
 
-    listaEstadisticas.Add($"RECAUDACION POR DIA: DIA 1: {recaudacion1} - DIA 2: {recaudacion2} - DIA 3: {recaudacion3} - FULL: {recaudacion4}");
+    listaEstadisticas.Add($"RECAUDACION POR DIA: DIA 1: ${recaudacion1} - DIA 2: ${recaudacion2} - DIA 3: ${recaudacion3} - FULL: ${recaudacion4}");
     listaEstadisticas.Add($"En total se recaudó {recaudacionTotal}");
 
     return listaEstadisticas;

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tp3_Kalik_Eulmesekian")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68e5ba2941d965c586f12b9153521b880bb489c7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e6fcd64d85552db1aea2404edcad356ee42131a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tp3_Kalik_Eulmesekian")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tp3_Kalik_Eulmesekian")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
