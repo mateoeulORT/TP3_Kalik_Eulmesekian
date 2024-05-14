@@ -17,8 +17,12 @@ public static Cliente BuscarCliente (int ID){
     Cliente clienteEncontrado;
     if (DicClientes.ContainsKey(ID))
     {
-        
+        clienteEncontrado = DicClientes[ID];
+    } else
+    {
+        clienteEncontrado = null;
     }
+    return clienteEncontrado;
 }
 
 }   

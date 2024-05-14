@@ -3,7 +3,7 @@ int dni, tipoEntrada, cantidad, ID;
 string nombre, apellido;
 DateTime fechaCompra = new DateTime();
 
-Cliente cliente = new Cliente(0, null, null, fechaCompra, 0, 0);
+Cliente cliente;
 
 do
 {

@@ -8,24 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\48044168\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\Info\\4to año\\Programación\\2do bimestre\\Tp3_Kalik_Eulmesekian\\Tp3_Kalik_Eulmesekian.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Prog 4to año\\Programacion\\2do Bimestre\\TP3_Kalik_Eulmesekian\\Tp3_Kalik_Eulmesekian.csproj",
       "projectName": "Tp3_Kalik_Eulmesekian",
-      "projectPath": "Z:\\Info\\4to año\\Programación\\2do bimestre\\Tp3_Kalik_Eulmesekian\\Tp3_Kalik_Eulmesekian.csproj",
-      "packagesPath": "C:\\Users\\48044168\\.nuget\\packages\\",
-      "outputPath": "Z:\\Info\\4to año\\Programación\\2do bimestre\\Tp3_Kalik_Eulmesekian\\obj\\",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\Prog 4to año\\Programacion\\2do Bimestre\\TP3_Kalik_Eulmesekian\\Tp3_Kalik_Eulmesekian.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\Prog 4to año\\Programacion\\2do Bimestre\\TP3_Kalik_Eulmesekian\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\48044168\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -71,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
