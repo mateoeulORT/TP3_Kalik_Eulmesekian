@@ -41,6 +41,16 @@ do
             break;
 
         case 3:
+            int idIngresado = INgresarINT("Ingrese el id de una entrada:");
+            Cliente clienteBuscado = Ticketera.BuscarCliente(idIngresado);
+
+            Console.WriteLine("----- INFO DE CLIENTE #" + idIngresado + " -----");
+            Console.WriteLine("NOMBRE:" + clienteBuscado.Nombre);
+            Console.WriteLine("APELLIDO:" +clienteBuscado.Apellido);
+            Console.WriteLine("DNI:" +clienteBuscado.DNI);
+            Console.WriteLine("FECHA INSCRIPCION:" +clienteBuscado.FechaInscripcion);
+            Console.WriteLine("TIPO ENTRADA:" +clienteBuscado.TipoEntrada);
+            Console.WriteLine("CANTIDAD:" +clienteBuscado.Cantidad);
             break;
 
         default:
@@ -96,7 +106,7 @@ static DateTime IngresarFecha (){
     dia = int.Parse(Console.ReadLine());
     mes = int.Parse(Console.ReadLine());
     año = int.Parse(Console.ReadLine());
-    DateTime fecha = new DateTime(mes, dia, año);
+    DateTime fecha = new DateTime(año, mes, dia);
     return fecha;
 }
 

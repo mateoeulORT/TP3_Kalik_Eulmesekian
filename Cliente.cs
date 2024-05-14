@@ -4,8 +4,8 @@ class Cliente {
     public string Nombre { get; private set; }
      public string Apellido { get; private set; }
     public DateTime FechaInscripcion { get; set; } 
-    int TipoEntrada {get; set;}
-    int Cantidad{get; set;}
+    public int TipoEntrada {get; set;}
+    public int Cantidad{get; set;}
 
    public Cliente(int dni, string nombre, string apellido, DateTime fechaInscripcion, int tipoEntrada, int cant)
    {
