@@ -1,8 +1,7 @@
-﻿int rtaMenu;
-int dni, tipoEntrada, cantidad, ID;
+﻿int rtaMenu, dni, tipoEntrada, cantidad, ID;
 string nombre, apellido;
-DateTime fechaCompra = new DateTime();
 
+DateTime fechaCompra = new DateTime();
 Cliente cliente;
 
 do
@@ -53,6 +52,9 @@ do
             Console.WriteLine("CANTIDAD:" +clienteBuscado.Cantidad);
             break;
 
+        case 4:
+            break;
+            
         default:
             break;
     }
@@ -108,6 +110,6 @@ static DateTime IngresarFecha (){
     año = int.Parse(Console.ReadLine());
     DateTime fecha = new DateTime(año, mes, dia);
     return fecha;
-}
+} 
 
 
